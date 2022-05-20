@@ -4,14 +4,12 @@ import java.sql.Timestamp;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Id;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 
 @Entity(name = "divisions")
 public class DivisionEntity extends PanacheEntity{
 
-    @Id
     @Column(nullable = false)
     private long id;
 
