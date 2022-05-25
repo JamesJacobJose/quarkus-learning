@@ -14,7 +14,7 @@ public class DivisionEntity extends PanacheEntity{
     private long id;
 
     @Column(name = "organization_id", nullable = false)
-    private long organizationId;
+    private Long organizationId;
 
     @Column(nullable = false)
     private String code;
