@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 public class Division {
     
-    private long id;
+    private Long id;
     private Long organizationId;
     private String code;
     private String name;
